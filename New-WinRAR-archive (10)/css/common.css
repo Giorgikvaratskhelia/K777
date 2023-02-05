@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+:root {
+  --text-color: #00a0b1;
+  --white: #ffffff;
+}

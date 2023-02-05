@@ -1,0 +1,45 @@
+.next__trip__title {
+  width: 414px;
+  height: 114px;
+  font-size: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 27px;
+}
+.destination__header {
+  display: block;
+}
+.select__tour {
+  width: 500px;
+  height: 300px;
+  margin-top: 183px;
+  margin-left: 168px;
+}
+.destination__header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  color: var(--text-color);
+  margin-left: 29px;
+}
+.destination__paragraph {
+  width: 415px;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #a1a1a1;
+  margin-left: 29px;
+}
+.destination {
+  align-items: center;
+  margin-bottom: 40px;
+}
+.next__trip__img {
+  margin-top: 79px;
+  margin-left: 73px;
+  overflow: hidden;
+}

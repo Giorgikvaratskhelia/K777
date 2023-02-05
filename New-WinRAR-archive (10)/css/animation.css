@@ -1,0 +1,59 @@
+.list:hover {
+  transform: scale(1.5, 1.5);
+  cursor: pointer;
+  margin: 0px 15px;
+  transition-duration: 0.75s;
+}
+
+.toronto:hover,
+.newyour:hover,
+.paris:hover {
+  transform: translate(-50px, 50px) scale(1.25);
+  transition-duration: 1.15s;
+}
+.orlando:hover {
+  transform: translate3d(50px, 50px, 50px) scale3d(1.25, 1.25, 1.25);
+  transition-duration: 1.15s;
+}
+
+/* plane animation */
+
+.plane {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 200;
+  top: 250px;
+  left: -750px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-animation: circle 10s linear infinite;
+  animation: circle 10s linear infinite;
+}
+.plane2 {
+  top: 350px;
+  left: -550px;
+  -webkit-animation: circle 14s linear infinite;
+  animation: circle 14s linear infinite;
+}
+.plane3 {
+  top: 450px;
+  left: -400px;
+  -webkit-animation: circle 8s linear infinite;
+  animation: circle 8s linear infinite;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    transform: rotate(0deg) translate(-265px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translate(-265px) rotate(0deg);
+  }
+}
+.plane__img {
+  rotate: -90deg;
+}

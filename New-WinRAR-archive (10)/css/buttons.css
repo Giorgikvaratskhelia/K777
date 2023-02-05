@@ -1,0 +1,68 @@
+.buttons {
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+}
+
+.login__btn {
+  border: none;
+  width: 49px;
+  height: 27px;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 600;
+  color: var(--text-color);
+  border-radius: 10px;
+  background-color: var(--white);
+  margin-right: 50px;
+}
+.signup__btn {
+  border-radius: 5px;
+  width: 88px;
+  height: 34px;
+  background-color: var(--text-color);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.discover__now__btn {
+  width: 140px;
+  height: 34px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  background-color: var(--text-color);
+  color: var(--white);
+  margin-top: 60px;
+}
+.details {
+  width: 97px;
+  height: 34px;
+  background-color: var(--text-color);
+  border-radius: 10px;
+  color: var(--white);
+  margin-top: 48px;
+  margin-left: 110px;
+}
+.see__tours__btn {
+  font-size: 24px;
+  width: 148px;
+  height: 46px;
+  border-radius: 5px;
+  background-color: var(--text-color);
+  color: var(--white);
+}
+.reg__but {
+  background-color: var(--text-color);
+  border: none;
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+}
+.have__account {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}

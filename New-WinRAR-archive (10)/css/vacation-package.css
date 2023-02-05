@@ -1,0 +1,71 @@
+.vacation__package {
+  /* width: 1000px; */
+  height: 829px;
+  background: rgba(153, 235, 244, 0.3);
+  margin-top: 45px;
+
+  padding-top: 60px;
+}
+.vacation__title {
+  /* display: inline-block; */
+
+  font-size: 48px;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .title {
+  width: 100%;
+  
+  justify-content: center;
+  align-items: center;
+} */
+.athens,
+.rome,
+.agra {
+  width: 373px;
+  height: 250px;
+  background-color: white;
+  margin-top: 0px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.vacation__city {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  margin: 10px;
+}
+.vacation__paragraph {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  color: #6a6a6a;
+  margin: 10px;
+}
+.stars {
+  margin: 10px;
+}
+.greece {
+  border-radius: 15px;
+}
+.vacation__package__tours {
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.price__details {
+  align-items: center;
+}
+.from {
+  margin-left: 10px;
+  margin-top: 48px;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.price {
+  font-size: 36px;
+  color: #ff6b6b;
+  margin-top: 38px;
+}

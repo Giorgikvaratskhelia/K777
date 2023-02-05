@@ -1,0 +1,73 @@
+.company__information {
+  align-items: center;
+  justify-content: space-between;
+  width: 1149px;
+  height: 83px;
+}
+.logo__pic {
+  /* width: 175px;
+  height: 59px; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+.devise {
+  font-size: 18px;
+  line-height: 19.57px;
+  font-weight: 500;
+  letter-spacing: 8%;
+  color: var(--text-color);
+}
+.title {
+  justify-content: space-between;
+  width: 350px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: black;
+}
+
+/* First Page  */
+
+.first__picture img {
+  position: absolute;
+  top: 225px;
+  left: 90px;
+}
+.fimg {
+  z-index: 10;
+}
+
+.explore__world {
+  position: relative;
+  width: 550px;
+  height: 529px;
+  top: 158px;
+  left: 647px;
+}
+.title__text {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+.header__title {
+  font-size: 80px;
+  margin-top: 30px;
+}
+.paragraph_title {
+  width: 400px;
+  height: 72px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 30px;
+  color: #a1a1a1;
+}
+
+/* .popular__destination {
+  position: re;
+} */

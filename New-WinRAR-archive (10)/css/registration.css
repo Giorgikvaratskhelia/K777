@@ -1,0 +1,82 @@
+.hidden {
+  display: none;
+}
+.active {
+  display: inline-block;
+}
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+.sign_header {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.sign__in__btn,
+.registration__btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.sign__up__container {
+  width: 300px;
+  height: 300px;
+  background-color: var(--text-color);
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  border-radius: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  margin-bottom: 10px;
+}
+
+/*  */
+
+.sign__in__container {
+  width: 300px;
+  height: 200px;
+  background-color: var(--text-color);
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  border-radius: 20px;
+}
+.close__btn,
+.close__btn2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: grey;
+  font-size: 24px;
+  border-top-right-radius: 10px;
+}
+.check {
+  display: flex;
+  margin-left: 25px;
+}
+
+.account {
+  display: flex;
+  /* background-color: red; */
+  flex-direction: column;
+}
+.reg__acc {
+  display: flex;
+}
+.sign__in__bt {
+  background-color: var(--text-color);
+  color: var(--white);
+  border: none;
+  cursor: pointer;
+}
+.all__fields {
+  color: red;
+}

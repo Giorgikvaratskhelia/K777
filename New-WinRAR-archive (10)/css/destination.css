@@ -1,0 +1,70 @@
+.destination__title {
+  position: relative;
+  width: 415px;
+  height: 57px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 253px;
+  /* top: 253px;
+  left: 512px; */
+}
+.places {
+  position: relative;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 100%;
+  right: 0px;
+}
+
+/* .popular__destination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* citys */
+
+/* .orlando,.newyour,.paris,.toronto{
+
+} */
+
+.places {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-around;
+  align-items: center;
+}
+.place__name {
+  margin-top: 21px;
+  padding: 9px;
+}
+
+.circles {
+  width: 71px;
+  height: 28px;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.one,
+.two,
+.three {
+  width: 15px;
+  height: 15px;
+  border: solid 1px;
+  border-radius: 50%;
+}
+.one {
+  background-color: #00a0b1;
+}
+.two {
+  background-color: #a2a2a2;
+}
+.three {
+  background-color: #c7c7c7;
+}
